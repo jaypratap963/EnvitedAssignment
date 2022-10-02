@@ -1,0 +1,126 @@
+.snapchatEventsIpadMainContainer{
+        // display: grid;
+        // grid-template-columns: 50% 50%;
+        display: block;
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        // height: 100vh;
+        .popcornImage {
+        //   position: absolute;
+          width: 440px;
+          height: 775.69px;
+        //   left: calc(50% - 440px / 2 - 366px);
+        //   top: 50px;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        grid-row: 2;
+      
+          filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
+          border-radius: 35.1522px;
+        }
+        .headingButton {
+            grid-row: 1;
+        //   position: absolute;
+      
+        //   left: calc(50%);
+        //   top: 180px;
+        width: 100vw;
+        //   height: 192px;
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2em;
+          line-height: 64px;
+          justify-content: center;
+          align-items: center;
+          align-self: center;
+          /* or 100% */
+      
+          text-align: center;
+      
+          color: #240d57;
+      
+          span {
+              background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+              background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        
+        h3 {
+        //   width: 521px;
+        //   height: 56px;
+      
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          color: #4f4f4f;
+          justify-content: center;
+          align-items: center;
+          align-self: center;
+      
+          /* Inside auto layout */
+      
+          flex: none;
+        //   order: 1;
+          flex-grow: 0;
+        }
+    }
+    button {
+      display: inline-flex;
+    //   flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      padding: 16px;
+    //   gap: 10px;
+      grid-row: 3;
+      margin-bottom: 2em;
+    //   position: absolute;
+      width: 320px;
+      height: 55px;
+      color: #ffffff;
+      font-size: 20px;
+      background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+      border-radius: 10px;
+    }
+      
+      // @media screen and (max-width: 834px) {
+      //   .snapchatEventsMainContainer {
+      //     // display: block;
+      //     align-items: center;
+      //     justify-content: center;
+      //     align-content: center;
+      //     position: absolute;
+      
+      //     .headingButton {
+      //         display: grid;
+      //       grid-row: 1;
+      //         position: relative;
+      //         left: 0;
+      //         top: 0;
+      //         h3{
+      //             grid-row: 2;
+      //         }
+      //         button{
+      //             grid-row: 3;
+      //         }
+      //     }
+      //     .popcornImage{
+      //         display: grid;
+      //         position: relative;
+      //         grid-row: 2;
+      //         left: 0;
+      //         top: 0;
+      //         align-self: center;
+      //     }
+      
+      //   }
+      // }
+      
+}
